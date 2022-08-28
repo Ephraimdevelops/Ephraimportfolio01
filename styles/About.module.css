@@ -1,0 +1,122 @@
+.about{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    margin: 2rem 0;
+}
+
+.aleft {
+    flex: 1;
+    align-items: center;
+    margin: 3rem;
+    height: 100%;
+}
+.aimage{
+    object-fit: cover;
+    object-position: center;
+    height: 85%;
+    width: 100%;
+    border: 1rem solid #59b256;
+    border-radius: 25%;
+}
+.ibg{
+    clip-path: polygon(100% 0%, 100% 51%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
+    background-color: #59b256;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.aright {
+    flex: 1.5;
+    height: 100%;
+}
+.atitle{
+    font-size: 1.3rem;
+    margin: 1rem ;
+}
+.atitle span{
+    color: rgb(199, 199, 199);
+    text-decoration: underline #59b256;
+}
+.atitlewrapper{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    padding: 1rem 3rem;
+}
+.adesc{
+    font-size: 1.2rem;
+    font-weight: 300;
+    margin: 2rem 1rem;
+    line-height: 1.9;
+
+}
+.aparticulars{
+    display: flex;
+    margin: 1rem;
+}
+
+.abuttons{
+    margin: 1rem;
+    height: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.servicecard{
+    width: 40%;
+    height: 7rem;
+    padding: 1rem;
+    color: black;
+    font-weight: 700;
+    font-size: bolder;
+    border: none;
+    border-radius: .5rem;
+    margin: 1rem 0;
+    display: flex;
+    gap: .5rem;
+    background-color: #535353;
+}
+.servicecard:hover{
+    background-color: #59b256;
+    color: black;
+    transition: all ease-in-out 1s;
+    box-shadow: .2rem .2rem .2rem .2rem rgba(41, 56, 41, 0.813);
+
+}
+
+.servicecardimage{
+    display: flex;
+    width: 30%;
+    font-size: 3.5rem;
+    padding: 1rem;
+    align-items: center;
+    height: 100%;
+    color: #59b256;
+}
+.servicecardimage img{
+    width: 5rem;
+    height: 5rem;
+    object-fit: cover;
+}
+.servicecard:hover{
+    color: rgb(0, 0, 0);
+    background : linear-gradient(290deg, #59b256, #458d43);
+    transition: all .2s ease-in-out;
+}
+.service{
+    width: 70%;
+    font-weight: 100;
+    display: flex;
+    flex-direction: column;
+    line-height: .1;
+    color: rgb(223, 221, 221);
+}
+.service h1{
+
+}

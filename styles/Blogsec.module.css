@@ -1,0 +1,27 @@
+.blogsec{
+    width: 100%;
+    height: 100vh;
+}
+.desc{
+    text-align: center;
+}
+.desc h1{
+    font-size: 2.5rem;
+    font-weight: 699;
+}
+.desc p{
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+.blogcards{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-around;
+    gap: 1rem;
+    margin: 4rem auto;
+}
+.cta{
+    color: #59b256;
+    font-weight: bolder;
+}

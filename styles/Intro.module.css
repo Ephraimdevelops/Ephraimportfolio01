@@ -1,0 +1,173 @@
+.intro{
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    text-align: center;
+}
+.ileft{
+    height: auto;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+}
+.iright {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ileftwrapper{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    line-height: 1;
+}
+.iintro{
+    font-size: 1.8rem;
+    font-weight: 100;
+}
+.iname{
+    font-size: 3.5rem;
+}
+.ititle{
+    height: 50px;
+    overflow: hidden;
+    width: 100%;
+    margin: 1rem auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.idesc{
+    font-size: 1.1rem;
+    font-weight: 100;
+    margin: 1.2rem auto;
+    line-height: 1.1;
+}
+.introbutton{
+    width: 15%;
+    height: 2rem;
+    padding: 1rem;
+    margin: 3rem auto;
+    text-align: center;
+    background-color: #59b256;
+    border: none;
+    color: white;
+    border-radius: 2rem;
+    font-weight: 700;
+    font-size: 1.1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    -webkit-animation-name: movee;
+    -webkit-animation-duration: 2s;
+    -webkit-animation-timing-function: ease-in-out;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    animation-name: movee;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+.introbutton:hover{
+    background-color: #59b256;
+    transition: all ease-in-out 1s;
+    
+}
+
+@keyframes movee {
+    25% {
+      transform: translateY(-10px);}
+    100% {
+        transform: translateY(10px);
+    }
+    }
+    @-webkit-keyframes movee {
+        25% {
+            transform: translateY(-10px);}
+          100% {
+              transform: translateY(10px);
+          }
+    }
+
+.ititlewrapper{
+    height: 100%;
+    position: relative;
+    text-align: center;
+    width: 100%;
+    -webkit-animation-name: move;
+    -webkit-animation-duration: 9s;
+    -webkit-animation-timing-function: ease-in-out;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    animation-name: move;
+    animation-duration: 9s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes move {
+25% {
+  transform: translateY(-50px);
+ }
+50%{
+    transform: translateY(-100px); 
+ }
+75% {
+    transform: translateY(-150px);
+}
+100% {
+    transform: translateY(-200px);
+}
+}
+@-webkit-keyframes move {
+    25% {
+        transform: translateY(-50px);
+    }
+
+    50% {
+        transform: translateY(-100px);
+    }
+
+    75% {
+        transform: translateY(-150px);
+    }
+
+    100% {
+        transform: translateY(-200px);
+    }
+}
+.ititleitem{
+    height: 50px;
+    font-size: 2.2rem;
+    font-weight: bold;
+    color: #59b256;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.iimg{
+    object-fit: cover;
+    object-position: center;
+    border-radius: 20%;
+    z-index: 5;
+    background-color: #59b256;
+}
+.ibg{
+    width: 300px;
+    height: 250px;
+    background-color: #59b256;
+    width: 10%;
+    height: 10%;
+    position: absolute;
+    z-index: 1;
+}

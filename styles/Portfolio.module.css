@@ -1,0 +1,79 @@
+.p1{
+    padding: 50px ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+}
+.p1texts{
+    width: 85%;
+}
+.p1title{
+    font-size: 2.4rem;
+    font-weight: 700;
+    margin-bottom: 3rem;
+}
+.p1desc{
+    margin: 3rem 0px;
+    font-size: 1.2rem;
+    font-weight: 340;
+}
+.p1list{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+}
+
+
+.p{
+    width: 30%;
+    height: 40vh;
+    margin: 20px 10px;
+    border: 2px solid rgb(243, 242, 242);
+    border-radius: 10px 10px 0px 0px ;
+    overflow: hidden;
+}
+.p:hover{
+    border: 3px outset  #59b2563a;
+    transition: all ease-in-out .7s;
+
+}
+.pbrowser{
+    height: 20px;
+    background-color: rgb(243, 242, 242);
+    display: flex;
+    align-items: center;
+    position: sticky;
+    z-index: 9;
+}
+.pcircle{
+    height: 6px;
+    width: 6px;
+    border-radius: 50%;
+    margin: 3px;
+    background-color: white;
+}
+.pimg{
+    object-fit: cover;
+    width: 100%;
+}
+/* .pimg:hover{
+    -webkit-animation-name: scrolu;
+     -webkit-animation-duration: 20s;
+     -webkit-animation-timing-function: ease-in-out;
+     -webkit-animation-iteration-count: infinite;
+     -webkit-animation-direction: alternate;
+     animation-name: scrolu;
+     animation-duration: 5s;
+     animation-timing-function: ease;
+     animation-iteration-count: infinite;
+     animation-direction: alternate;
+     animation-timing-function: ease-in-out;
+}
+@keyframes scrolu {
+    100%{
+        transform: translateY(-100%);
+    }
+} */

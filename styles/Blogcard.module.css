@@ -1,0 +1,45 @@
+.container{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    width: 100%;
+    height: 50vh;
+}
+
+.cardcontainer{
+    width: 30%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+.imagecontainer{
+    flex: 3;
+    width: 100%;
+    position: relative;
+    border-radius: 1rem 1rem 0 0;
+}
+.coverImage{
+    width: 100%;
+    object-fit: cover;
+    border-radius: 1rem 1rem 0 0;
+}
+.title{
+    flex: 1;
+    position: relative;
+    background-color: #535353;
+    font-size: 1.3rem;
+    padding: .8rem;
+    text-align: center;
+}
+.category{
+    flex: 1;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background-color: #59b256;
+    width: auto;
+    padding: .5rem 1rem;
+    font-weight: 500;
+    border-radius: 1rem 0 0 0 ;
+    color: black;
+}

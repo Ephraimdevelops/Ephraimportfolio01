@@ -77,3 +77,16 @@
         transform: translateY(-100%);
     }
 } */
+
+@media screen and (max-width:1240px) and (min-width:0px){
+    .p1texts{
+        width: 100%;
+    }
+    .p1{
+        padding: 1rem;
+        margin-top: 5rem;
+    }
+    .p{
+        width: 100%;
+    }
+}

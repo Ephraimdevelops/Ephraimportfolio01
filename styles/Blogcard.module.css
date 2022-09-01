@@ -2,8 +2,9 @@
     display: flex;
     gap: 1rem;
     justify-content: center;
+    position: relative;
     width: 100%;
-    height: 50vh;
+    height: auto;
 }
 
 .cardcontainer{
@@ -11,9 +12,10 @@
     position: relative;
     display: flex;
     flex-direction: column;
+    cursor: pointer;
 }
 .imagecontainer{
-    flex: 3;
+    min-height: 75%;
     width: 100%;
     position: relative;
     border-radius: 1rem 1rem 0 0;
@@ -23,23 +25,41 @@
     object-fit: cover;
     border-radius: 1rem 1rem 0 0;
 }
-.title{
-    flex: 1;
-    position: relative;
-    background-color: #535353;
-    font-size: 1.3rem;
-    padding: .8rem;
-    text-align: center;
+.imagecontainer:hover{
+    border: 1px solid #59b256 ;
 }
-.category{
-    flex: 1;
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    background-color: #59b256;
-    width: auto;
-    padding: .5rem 1rem;
+.title{
+    font-size: 1.5rem;
     font-weight: 500;
-    border-radius: 1rem 0 0 0 ;
-    color: black;
+    text-align: center;
+    text-transform: capitalize;
+    max-height: 100%;
+}
+.desccontainer{
+    height: auto;
+    position: relative;
+    font-size: 1rem;
+    padding: 0 .3rem ;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    flex-wrap: wrap;
+    border-top: none;
+    border-radius: 0 0 1rem 1rem;
+    background-color: rgba(152, 235, 124, 0.123);
+}
+
+.category{
+    color: #59b256;
+    width: auto;
+    padding: 0 1rem;
+    font-weight: 200;
+    font-size: .5rem;
+}
+@media screen and (max-width:1240px) and (min-width:0px){
+    .container{
+        flex-direction: column;
+     
+    }
 }

@@ -1,23 +1,35 @@
 .containerr{
 	position: relative;
-    width: 100%;
+    max-width: 100%;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
+    height: auto;
+    margin: 4rem auto;
+    
 }
 .image{
     border-radius: 50%;
 }
 .author{
 	justify-content: center;
-
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 100%;
 }
 .name{
     font-size: 3rem;
 }
 .containerr p{
     font-weight: 400;
+    width: 100%;
 }
 .description{
     font-weight: 400;
+    max-width: 100%;
+}
+
+@media screen and (max-width:1240px) and (min-width:0px){
+
 }

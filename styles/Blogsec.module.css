@@ -1,6 +1,6 @@
 .blogsec{
     width: 100%;
-    height: 100vh;
+    height: auto;
 }
 .desc{
     text-align: center;
@@ -20,8 +20,16 @@
     justify-content: space-around;
     gap: 1rem;
     margin: 4rem auto;
+    position: relative;
 }
 .cta{
     color: #59b256;
     font-weight: bolder;
+}
+
+@media screen and (max-width:1240px) and (min-width:0px){
+    .blogcards{
+        flex-direction: column;
+
+    }
 }

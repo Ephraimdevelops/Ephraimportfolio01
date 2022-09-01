@@ -2,9 +2,13 @@ import Head from 'next/head'
 import Image from 'next/image'
 import About from '../components/about'
 import Blogsec from '../components/blogsec'
+import Contact from '../components/contact'
 import Intro from '../components/intro'
+import Nav2 from '../components/Nav2'
+
 import Portfolio from '../components/portfolio'
 import Services from '../components/Services'
+import Socials from '../components/Socials'
 import Testimonials from '../components/testimonials'
 import styles from '../styles/Home.module.css'
 
@@ -18,25 +22,21 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
+        <Nav2/>
         <Intro/>
         <About/>
         <Services/>
         <Portfolio/>
         <Blogsec/>
         <Testimonials/>
+        <Contact/>
       </main>
 
       <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <span className={styles.logo}>
-            <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
-          </span>
-        </a>
+        <Socials/>
+        <p>
+          Copyright @ 2022 - All rights Reseved
+        </p>
       </footer>
     </div>
   )

@@ -22,7 +22,7 @@ const Testimonials = () => {
         autoplay: true,
         interval: 2000,
         arrows: false,
-        gap: 20,
+        gap: 0,
         lazyLoad: "nearby",
       }}
       onMoved={(splide, newIndex) => {

@@ -1,8 +1,9 @@
 .servicesskills{
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    height: auto;
     flex-wrap: wrap;
+    margin-top: 5rem;
 }
 .services{
     display: flex;
@@ -95,4 +96,18 @@
     color: black;
     transition: all ease-in-out .4s;
     box-shadow: 1rem 1rem 1rem  rgba(41, 56, 41, 0.813);
+}
+
+@media screen and (max-width:1240px) and (min-width:0px){
+    .services{
+        flex-direction: column;
+        gap: 2rem;
+
+    }
+    .servicecard{
+        width: 100%;
+    }
+    .language{
+        width: 70%;
+    }
 }

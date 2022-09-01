@@ -1,8 +1,9 @@
 .about{
-    height: 100vh;
+    height: auto;
     display: flex;
     align-items: center;
     margin: 2rem 0;
+    position: relative;
 }
 
 .aleft {
@@ -117,6 +118,19 @@
     line-height: .1;
     color: rgb(223, 221, 221);
 }
-.service h1{
 
+@media screen and (max-width:1240px) and (min-width:0px){
+   .about{
+    flex-direction: column;
+    margin-top: 0;
+   } 
+   .aleft{
+    display: none;
+   }
+   .servicecard{
+    width: 100%;
+   }
+   .atitle{
+    text-align: center;
+   }
 }

@@ -2,6 +2,7 @@ import styles from '../styles/About.module.css'
 import back from '../public/back.jpg'
 import Image from 'next/image';
 import {FaLinkedin,FaMailBulk, FaPhone, FaTwitterSquare} from "react-icons/fa";
+import Link from 'next/link';
 
 const About = () => {
   return (
@@ -24,35 +25,8 @@ const About = () => {
                
             </div>
             <div className={styles.abuttons}>
-            <div className={styles.servicecard}>
-                <div className={styles.servicecardimage}>
-                <FaPhone/> 
-                </div>
-                <div className={styles.service}>
-                    <h1>Call Me</h1>
-                    <p>+255-769-517-032</p>
-                </div>
-            </div>
-            
-            <div className={styles.servicecard}>
-                <div className={styles.servicecardimage}>
-                   <FaMailBulk/>  
-                </div>
-                <div className={styles.service}>
-                    <h1>Email Me</h1>
-                    <p>ephraimdevelops@gmail.com</p>
-                </div>
-            </div>
-            <div className={styles.servicecard}>
-                <div className={styles.servicecardimage}>
-                   <FaTwitterSquare/>  
-                </div>
-                <div className={styles.service}>
-                    <h1>Tweet</h1>
-                    <p>@Ngowi_Ephraim</p>
-                </div>
-            </div>
-            <div className={styles.servicecard}>
+            <Link href={'https://www.linkedin.com/in/ephraim-ngowi-730701190'}>
+                <div className={styles.servicecard}>
                 <div className={styles.servicecardimage}>
                    <FaLinkedin/>  
                 </div>
@@ -61,6 +35,40 @@ const About = () => {
                     <p>Ephraim Ngowi</p>
                 </div>
             </div>
+            </Link>
+            <Link href={'mailto:ephraimdevelops@gmail.com'}><div className={styles.servicecard}>
+                <div className={styles.servicecardimage}>
+                   <FaMailBulk/>  
+                </div>
+                <div className={styles.service}>
+                    <h1>Email Me</h1>
+                    <p>ephraimdevelops@gmail.com</p>
+                </div>
+            </div>
+            </Link>
+            <Link href={'tel:+255769517032'}>
+                <div className={styles.servicecard}>
+                <div className={styles.servicecardimage}>
+                <FaPhone/> 
+                </div>
+                <div className={styles.service}>
+                    <h1>Call Me</h1>
+                    <p>+255-769-517-032</p>
+                </div>
+            </div>
+            </Link> 
+           {/* <Link href={'https://twitter.com/ephraim_ngowi?t=HlmXiz4Sd-U4ZSVmlFljsA&s=09'}>  */}
+           <div className={styles.servicecard}>
+                <div className={styles.servicecardimage}>
+                   <FaTwitterSquare/>  
+                </div>
+                <div className={styles.service}>
+                    <h1>Tweet</h1>
+                    <p>@Ngowi_Ephraim</p>
+                </div>
+            </div>
+            {/* </Link> */}
+           
                 
             </div>
 

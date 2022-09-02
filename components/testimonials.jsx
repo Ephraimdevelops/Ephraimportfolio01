@@ -1,8 +1,9 @@
 import styles from '../styles/Testimonial.module.css'
-import React from 'react';
 import "@splidejs/splide/dist/css/themes/splide-default.min.css";
 import { Splide, SplideSlide } from '@splidejs/react-splide';
-import Testimonialcard from './Testimonialcard';
+import back from "../public/back.jpg"
+import Image from 'next/image'
+import {FaQuoteLeft, FaQuoteRight} from "react-icons/fa";
 
 
 
@@ -12,6 +13,7 @@ const Testimonials = () => {
         <h1>Words from My Clients...</h1>
         <p className={styles.titledesc}>I build with my customers , here are some words they say about my work and experince working with me...</p>
         <div className={styles.reviews}>
+        <div className={styles.slidess}>
         <Splide
         options={{
         rewind: true,
@@ -29,19 +31,72 @@ const Testimonials = () => {
         console.log("moved", newIndex);
       }}
     >
+      
+        
+      
     <SplideSlide>
-        <Testimonialcard/>
+    <section classname={styles.containerr}>
+		     <div classname={styles.author}>
+			     <Image src={back} width={140} height={140} classname={styles.image}/>
+			     <h2 classname={styles.name}> Ephraim Ngowi</h2>
+			     <h5 classname={styles.title}> Software Developer</h5>
+			     <p classname={styles.description}><span><FaQuoteLeft/></span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			     quis nostrud exercitation ullamco laboris nisi ut aliquip. <span><FaQuoteRight/></span></p>
+		    </div>
+		</section>
      </SplideSlide>
      <SplideSlide>
-        <Testimonialcard/>
+    <section classname={styles.containerr}>
+		     <div classname={styles.author}>
+			     <Image src={back} width={140} height={140} classname={styles.image}/>
+			     <h2 classname={styles.name}> Ephraim Ngowi</h2>
+			     <h5 classname={styles.title}> Software Developer</h5>
+			     <p classname={styles.description}><span><FaQuoteLeft/></span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			     quis nostrud exercitation ullamco laboris nisi ut aliquip. <span><FaQuoteRight/></span></p>
+		    </div>
+		</section>
      </SplideSlide>
      <SplideSlide>
-        <Testimonialcard/>
+    <section classname={styles.containerr}>
+		     <div classname={styles.author}>
+			     <Image src={back} width={140} height={140} classname={styles.image}/>
+			     <h2 classname={styles.name}> Ephraim Ngowi</h2>
+			     <h5 classname={styles.title}> Software Developer</h5>
+			     <p classname={styles.description}><span><FaQuoteLeft/></span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			     quis nostrud exercitation ullamco laboris nisi ut aliquip. <span><FaQuoteRight/></span></p>
+		    </div>
+		</section>
      </SplideSlide>
      <SplideSlide>
-        <Testimonialcard/>
+    <section classname={styles.containerr}>
+		     <div classname={styles.author}>
+			     <Image src={back} width={140} height={140} classname={styles.image}/>
+			     <h2 classname={styles.name}> Ephraim Ngowi</h2>
+			     <h5 classname={styles.title}> Software Developer</h5>
+			     <p classname={styles.description}><span><FaQuoteLeft/></span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			     quis nostrud exercitation ullamco laboris nisi ut aliquip. <span><FaQuoteRight/></span></p>
+		    </div>
+		</section>
      </SplideSlide>
+     <SplideSlide>
+    <section classname={styles.containerr}>
+		     <div classname={styles.author}>
+			     <Image src={back} width={140} height={140} classname={styles.image}/>
+			     <h2 classname={styles.name}> Ephraim Ngowi</h2>
+			     <h5 classname={styles.title}> Software Developer</h5>
+			     <p classname={styles.description}><span><FaQuoteLeft/></span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			     quis nostrud exercitation ullamco laboris nisi ut aliquip. <span><FaQuoteRight/></span></p>
+		    </div>
+		</section>
+     </SplideSlide>
+    
      </Splide>
+     </div>
      </div>
     </div>
   );

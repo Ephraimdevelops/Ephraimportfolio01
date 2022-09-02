@@ -16,7 +16,7 @@ const About = () => {
                       <h1>About <span>Me</span></h1>
                  </div>
             <p className={styles.adesc}>
-                Hello, My name is Ephraim Ngowi, MD . I am a freelance software Developer
+                Hello, My name is Ephraim Ngowi . I am a freelance software Developer
                 based in Dar es salaam, Tanzania. I started my coding journey
                 back in 2020, now i specialize in making stylish, useful and affordable
                 website for small and large companies and businesses.

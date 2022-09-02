@@ -157,15 +157,13 @@
     text-align: center;
 }
 .iimg{
-    object-fit: cover;
-    object-position: center;
-    border-radius: 20%;
+    border-radius: 50%;
     z-index: 5;
     background-color: #59b256;
 }
 .ibg{
-    width: 300px;
-    height: 250px;
+    width: 500px;
+    height: 500px;
     background-color: #59b256;
     width: 10%;
     height: 10%;
@@ -182,4 +180,11 @@
        line-height: 1.4;
 
     }
+}
+
+@media screen and (max-width:380px) and (min-width:0px){
+    .intro{
+        margin-bottom: 3rem;
+    }
+
 }

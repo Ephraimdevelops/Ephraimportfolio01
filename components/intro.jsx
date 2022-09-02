@@ -11,7 +11,7 @@ const Intro = () => {
         <div className={styles.ileftwrapper}>
           <div className={styles.iright}>
           <div className={styles.ibg}></div>
-          <Image src={back}  alt='ephraimdeveloper' width={175} height={155} objectPosition="center" objectFit="center" className={styles.iimg}/>
+          <Image src={back}  alt='ephraimdeveloper' width={175} height={175} className={styles.iimg}/>
           </div>
           <h2 className={styles.iintro}>Hello, My name is</h2>
           <h1 className={styles.iname}>Ephraim Ngowi</h1>

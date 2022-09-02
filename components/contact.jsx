@@ -25,7 +25,7 @@ const Contact = () => {
                 </div>
                 <div className={styles.service}>
                     <h1>Email Me</h1>
-                    <p>ephraimdevelops@gmail.com</p>
+                    <p>ephraimdevelops@gmail</p>
                 </div>
             </div>
             <div className={styles.servicecard}>
@@ -34,7 +34,7 @@ const Contact = () => {
                 </div>
                 <div className={styles.service}>
                     <h1>Location</h1>
-                    <p>Dododoma , Tanzania</p>
+                    <p>Dodoma , Tanzania</p>
                 </div>
             </div>
             </div>

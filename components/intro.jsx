@@ -29,7 +29,7 @@ const Intro = () => {
             specializing in creating stylish, modern websites, web services and stores
             online stores.
           </div>
-          <Link href={'https://wa.me/255769517032'}><button className={styles.introbutton}><FaWhatsapp/> What's up</button></Link>
+          <Link href={'https://wa.me/255769517032' }><button className={styles.introbutton}><FaWhatsapp/> What's up</button></Link>
         </div>
       </div>
       

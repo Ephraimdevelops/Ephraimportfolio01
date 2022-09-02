@@ -1,11 +1,9 @@
 import Head from 'next/head'
-import Image from 'next/image'
 import About from '../components/about'
 import Blogsec from '../components/blogsec'
 import Contact from '../components/contact'
 import Intro from '../components/intro'
 import Nav2 from '../components/Nav2'
-
 import Portfolio from '../components/portfolio'
 import Services from '../components/Services'
 import Socials from '../components/Socials'

@@ -8,7 +8,7 @@ import csss from "../public/csss.png"
 import js from "../public/js.png"
 import react from "../public/react.png"
 import nodejs from "../public/nodejs.png"
-import Image  from 'next/Image'
+import Image from 'next/dist/client/image'
 
 const Services = () => {
   return (

@@ -1,4 +1,4 @@
-import styles from '../../styles/Bloghome.module.css'
+import styles from '../styles/Bloghome.module.css'
 
 const Bloghome = () => {
   return (

@@ -53,7 +53,10 @@ const Testimonials = () => {
 			     <Image src={Edna}width={250} objectFit='contain' height={200} classname={styles.image}/>
 			     <h2 classname={styles.name}> Edna Ngowi</h2>
 			     <h5 classname={styles.title}> Bsn , RN </h5>
-			     <p classname={styles.description}><span><FaQuoteLeft/></span>I wanted a blog , i wanted a designer to design my life style blog, so i reached out to Ephraim . i love the design he came up with .. <span><FaQuoteRight/></span></p>
+			     <p classname={styles.description}><span><FaQuoteLeft/></span>
+			     <p classname={styles.description}><span><FaQuoteLeft/></span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			     quis nostrud exercitation ullamco laboris nisi ut aliquip.<span><FaQuoteRight/></span></p>
 		    </div>
 		</section>
      </SplideSlide>
@@ -63,30 +66,6 @@ const Testimonials = () => {
 			     <Image src={iku}width={250} objectFit='contain' height={200} classname={styles.image}/>
 			     <h2 classname={styles.name}> Ikundwial Mwambona</h2>
 			     <h5 classname={styles.title}> Co-Founder , Designable</h5>
-			     <p classname={styles.description}><span><FaQuoteLeft/></span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-			     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-			     quis nostrud exercitation ullamco laboris nisi ut aliquip. <span><FaQuoteRight/></span></p>
-		    </div>
-		</section>
-     </SplideSlide>
-     <SplideSlide>
-    <section classname={styles.containerr}>
-		     <div classname={styles.author}>
-			     <Image src={ephraim}width={250} objectFit='contain' height={200} classname={styles.image}/>
-			     <h2 classname={styles.name}> Ephraim Ngowi</h2>
-			     <h5 classname={styles.title}> Software Developer</h5>
-			     <p classname={styles.description}><span><FaQuoteLeft/></span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-			     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-			     quis nostrud exercitation ullamco laboris nisi ut aliquip. <span><FaQuoteRight/></span></p>
-		    </div>
-		</section>
-     </SplideSlide>
-     <SplideSlide>
-    <section classname={styles.containerr}>
-		     <div classname={styles.author}>
-			     <Image src={ephraim}width={350} objectFit='contain' height={200} classname={styles.image}/>
-			     <h2 classname={styles.name}> Ephraim Ngowi</h2>
-			     <h5 classname={styles.title}>Co-Founder , Designable</h5>
 			     <p classname={styles.description}><span><FaQuoteLeft/></span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 			     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 			     quis nostrud exercitation ullamco laboris nisi ut aliquip. <span><FaQuoteRight/></span></p>

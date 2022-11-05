@@ -5,6 +5,8 @@ import React from 'react'
 import { FaBars } from 'react-icons/fa'
 import Link from 'next/link';
 import Socials from './Socials';
+import Image from 'next/image';
+import favicon from "../public/favicon.png"
 
 export default function Nav2() {
   const [isNavExpanded, setIsNavExpanded] = useState(false)
@@ -19,10 +21,8 @@ export default function Nav2() {
             }}>
           <FaBars/>
          </button>
-         </div>
-    <div
-           className={`${styles.navigationmenu} ${isNavExpanded ? styles.navigationmenuexpanded : undefined}`}>
-           
+         </div>  
+    <div className={`${styles.navigationmenu} ${isNavExpanded ? styles.navigationmenuexpanded : undefined}`}>
                 <ul>
                    {links.map((link) => {
                      const { id, url, text } = link;
@@ -33,6 +33,7 @@ export default function Nav2() {
                         })}
                </ul>  
         </div>
+        
         
     
     </nav>

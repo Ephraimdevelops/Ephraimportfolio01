@@ -1,9 +1,93 @@
+.containerrr{
+    height: auto;
+    min-width: 30%;
+    position: relative;
+  }
+  .kadicontainer{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem auto;
+  }
+  .imagewrapper{
+    position: relative;
+    width: 100%;
+    height:28.50vh;
+    border-radius: 20px 20px 0px 0px;
+  }
+  .imagee{
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px 20px 0px 0px;;
+  }
+  .descriptions{
+    background-color: rgba(255, 255, 255, 0.1);
+	backdrop-filter: blur(10px);
+	box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.5);
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    border-radius: 0px 0px 20px 20px ;;
+    box-shadow: 0px 0px 1rem 0px rgba(12, 4, 4, 0.551);
+  }
+
+  .category{
+    width: 100%;
+    color: #59b256;
+    text-transform: capitalize;
+    display: flex;
+    font-size: 2rem;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px grey;
+  }
+  .title{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.3em;
+
+    padding: 0 1rem;
+  }
+  .date{
+    font-weight: lighter;
+  
+    font-size: .85rem;
+    padding-bottom: 1rem;
+  }
+  
+  @media screen and (min-width: 0px) and (max-width: 1024px)  {
+    .card {
+      margin: 0;
+    }
+    .category{
+      width: 100%;
+      margin-left: 1rem;
+    }
+    .containerrr{
+      width: 100%;
+      height: auto;
+    }
+    .imagewrapper{
+      height:40vh;
+    }
+  }
+  
+
+
 .container{
     display: flex;
-    gap: 1rem;
     justify-content: center;
     position: relative;
     width: 100%;
+    gap: 1rem;
     height: auto;
 }
 
@@ -55,7 +139,7 @@
     width: auto;
     padding: 0 1rem;
     font-weight: 200;
-    font-size: .5rem;
+    font-size: 1.2rem;
 }
 @media screen and (max-width:1240px) and (min-width:0px){
     .container{

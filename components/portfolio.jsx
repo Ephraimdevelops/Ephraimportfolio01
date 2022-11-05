@@ -7,7 +7,7 @@ const Portfolio = () => {
   return (
     <div className={styles.p1}>
         <div className={styles.p1texts}>
-            <h1 className={styles.p1title}>Create & Inspire , It's Ephraim</h1>
+            <h1 className={styles.p1title}>Creative Design , It's Ephraim</h1>
             <p className={styles.p1desc}>
                  I have been in the game for quite sometime , check out my portfolio
                  .Clients i have helped bring their creative ideas online..

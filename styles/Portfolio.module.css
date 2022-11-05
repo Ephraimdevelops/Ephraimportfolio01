@@ -4,13 +4,14 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
-    width: 100%;
+    width: 100vw;
+    backdrop-filter: blur(10px);
 }
 .p1texts{
     width: 85%;
 }
 .p1title{
-    font-size: 2.4rem;
+    font-size: 3.1rem;
     font-weight: 700;
     margin-bottom: 3rem;
 }

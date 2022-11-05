@@ -45,7 +45,7 @@
     align-items: center;
 }
 .idesc{
-    font-size: 1.1rem;
+    font-size: 1.3rem;
     font-weight: 100;
     margin: 1.2rem auto;
     line-height: 1.1;
@@ -157,9 +157,8 @@
     text-align: center;
 }
 .iimg{
-    border-radius: 50%;
+    border-radius: 20%;
     z-index: 5;
-    background-color: #59b256;
 }
 .ibg{
     width: 500px;
@@ -176,6 +175,7 @@
         padding: 1rem;
     }
     .idesc{
+        display: none;
        font-weight: 100;
        line-height: 1.4;
 

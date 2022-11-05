@@ -27,7 +27,7 @@
     box-shadow: 1.2rem rgb(72, 205, 78);
     border: 1px solid rgba(128, 128, 128, 0.692);
     line-height: 1.3;
-    background-color: #535353;
+    background-color: #53535369;
     color: white;
 }
 .servicecard div{
@@ -66,6 +66,14 @@
     justify-content: space-around;
     margin-bottom: 2rem;
 }
+.skills h1{
+    font-size: 3.2rem;
+}
+.green{
+    opacity: .8;
+    text-decoration: underline 1rem green;
+    
+}
 
 .tools{
     width: 100%;
@@ -102,6 +110,7 @@
     .services{
         flex-direction: column;
         gap: 2rem;
+        margin-top: 2rem;
 
     }
     .servicecard{

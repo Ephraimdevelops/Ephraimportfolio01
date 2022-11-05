@@ -1,8 +1,9 @@
 import styles from '../styles/About.module.css'
 import back from '../public/back.jpg'
 import Image from 'next/image';
-import {FaLinkedin,FaMailBulk, FaPhone, FaTwitterSquare} from "react-icons/fa";
+import {FaGithub, FaLinkedin,FaMailBulk, FaPhone, FaTwitterSquare} from "react-icons/fa";
 import Link from 'next/link';
+import {motion} from 'framer-motion'
 
 const About = () => {
   return (
@@ -24,9 +25,18 @@ const About = () => {
             <div className={styles.aparticulars}>
                
             </div>
-            <div className={styles.abuttons}>
+            <motion.div className={styles.abuttons} initial={{opacity : 0, translateY : 150}}
+                    animate={{translateX : 0}}
+                    transition={{duration: 1, 
+                      transition: {
+                        delayChildren: 0.5
+                      }}}
+                    whileInView={{opacity:1, translateY : 0 }}
+                    >
             <Link href={'https://www.linkedin.com/in/ephraim-ngowi-730701190'}>
-                <div className={styles.servicecard}>
+                <motion.div className={styles.servicecard}
+                    whileHover ={{ scale: 1.06}}
+                    whileTap ={{scale: 0.9}} >
                 <div className={styles.servicecardimage}>
                    <FaLinkedin/>  
                 </div>
@@ -34,9 +44,11 @@ const About = () => {
                     <h1>LinkedIn</h1>
                     <p>Ephraim Ngowi</p>
                 </div>
-            </div>
+            </motion.div>
             </Link>
-            <Link href={'mailto:ephraimdevelops@gmail.com'}><div className={styles.servicecard}>
+            <Link href={'mailto:ephraimdevelops@gmail.com'}><motion.div className={styles.servicecard}
+                whileHover ={{ scale: 1.06}}
+                whileTap ={{scale: 0.9}}>
                 <div className={styles.servicecardimage}>
                    <FaMailBulk/>  
                 </div>
@@ -44,10 +56,12 @@ const About = () => {
                     <h1>Email Me</h1>
                     <p>ephraimdevelops@gmail.com</p>
                 </div>
-            </div>
+            </motion.div>
             </Link>
             <Link href={'tel:+255769517032'}>
-                <div className={styles.servicecard}>
+                <motion.div className={styles.servicecard}
+                    whileHover ={{ scale: 1.06}}
+                    whileTap ={{scale: 0.9}}>
                 <div className={styles.servicecardimage}>
                 <FaPhone/> 
                 </div>
@@ -55,22 +69,23 @@ const About = () => {
                     <h1>Call Me</h1>
                     <p>+255-769-517-032</p>
                 </div>
-            </div>
+            </motion.div>
             </Link> 
            {/* <Link href={'https://twitter.com/ephraim_ngowi?t=HlmXiz4Sd-U4ZSVmlFljsA&s=09'}>  */}
-           <div className={styles.servicecard}>
+           <motion.div className={styles.servicecard}
+               whileHover ={{ scale: 1.06}}
+               whileTap ={{scale: 0.9}}>
                 <div className={styles.servicecardimage}>
-                   <FaTwitterSquare/>  
+                   <FaGithub/>  
                 </div>
                 <div className={styles.service}>
-                    <h1>Tweet</h1>
-                    <p>@Ngowi_Ephraim</p>
+                    <h1>Github</h1>
+                    <p>@ ephraimdevelops</p>
                 </div>
-            </div>
+            </motion.div>
             {/* </Link> */}
-           
-                
-            </div>
+
+            </motion.div>
 
             </div>
            

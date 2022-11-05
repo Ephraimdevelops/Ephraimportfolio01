@@ -1,5 +1,5 @@
 import styles from '../styles/Intro.module.css'
-import back from "../public/back.jpg"
+import backkk from "../public/backkk.jpg"
 import Image from 'next/image';
 import {FaWhatsapp} from "react-icons/fa";
 import Link from 'next/link';
@@ -11,7 +11,7 @@ const Intro = () => {
         <div className={styles.ileftwrapper}>
           <div className={styles.iright}>
           <div className={styles.ibg}></div>
-          <Image src={back}  alt='ephraimdeveloper' width={175} height={175} className={styles.iimg}/>
+          <Image src={backkk}  alt='ephraimdeveloper' width={175} height={175} objectPosition="center" className={styles.iimg}/>
           </div>
           <h2 className={styles.iintro}>Hello, My name is</h2>
           <h1 className={styles.iname}>Ephraim Ngowi</h1>

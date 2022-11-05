@@ -84,7 +84,7 @@ const Testimonials = () => {
      <SplideSlide>
     <section classname={styles.containerr}>
 		     <div classname={styles.author}>
-			     <Image src={ephraim}width={250} objectFit='contain' height={200} classname={styles.image}/>
+			     <Image src={ephraim}width={350} objectFit='contain' height={200} classname={styles.image}/>
 			     <h2 classname={styles.name}> Ephraim Ngowi</h2>
 			     <h5 classname={styles.title}>Co-Founder , Designable</h5>
 			     <p classname={styles.description}><span><FaQuoteLeft/></span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
